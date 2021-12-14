@@ -2,9 +2,9 @@
 let clientSocket = io();
 let angle = 0;
 let colorInt1 = "#E56399";
-let colorInt2 = "#7A6563";
+let colorInt2 = "#7FD1B9";
 let colorEst1 = "#DE6E4B";
-let colorEst2 = "#7FD1B9";
+let colorEst2 = "#7A6563";
 
 clientSocket.on("connect", newConnection);
 clientSocket.on("mouseBroadcast", newBroadcast);
