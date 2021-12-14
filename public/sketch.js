@@ -1,10 +1,10 @@
 //activating socket also on the server side
 let clientSocket = io();
 let angle = 0;
-let colorInt1 = "red";
-let colorInt2 = "yellow";
-let colorEst1 = "blue";
-let colorEst2 = "purple";
+let colorInt1 = "#E56399";
+let colorInt2 = "#7A6563";
+let colorEst1 = "#DE6E4B";
+let colorEst2 = "#7FD1B9";
 
 clientSocket.on("connect", newConnection);
 clientSocket.on("mouseBroadcast", newBroadcast);
@@ -20,7 +20,7 @@ function newBroadcast(data) {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background("#D9C562");
+  background("#E5D4CE");
   noStroke();
 }
 
